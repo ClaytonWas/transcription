@@ -2,6 +2,8 @@
 
 Local live transcription app for 12th Gen Intel Framework laptops with Iris Xe graphics.
 
+Records audio in chunks, transcribes with whisper.cpp, extracts topics from frequent words, and optionally summarizes with Ollama. All processing runs locally.
+
 <img width="1212" height="1093" alt="Screenshot from 2026-01-07 00-30-35" src="https://github.com/user-attachments/assets/3f67f087-ff44-4a55-ae5e-8180cf8db72c" />
 
 ## Requirements
