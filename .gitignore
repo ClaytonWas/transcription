@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+*.local
+
+# Rust/Tauri
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Binaries - build separately
+src-tauri/binaries/
+
+# Large files - download separately
+models/*.bin
+!models/.gitkeep
+whisper.cpp/
+
+# Audio files
+*.wav
+*.mp3
+*.ogg
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temp files
+*.tmp
+/tmp/
+dev.sh
